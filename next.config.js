@@ -3,9 +3,10 @@
 
 const nextConfig = {
  output: 'export',/**/
+  trailingSlash: true,
   eslint: {
     dirs: ['src'],
-     trailingSlash: true,
+    
   },
 
   reactStrictMode: false,
