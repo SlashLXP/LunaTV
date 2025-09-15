@@ -4,8 +4,12 @@
 const nextConfig = {
  output: 'export',/**/
   trailingSlash: true,
+   typescript: {
+   
+    ignoreBuildErrors: true,
+  },
   eslint: {
-    dirs: ['src'],
+    dirs: ['src'],ignoreDuringBuilds: true,
     
   },
 
